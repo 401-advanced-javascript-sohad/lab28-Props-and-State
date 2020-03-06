@@ -1,19 +1,24 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import './app.scss';
-import Header from './component/header/header.js';
-import Footer from './component/footer/footer.js';
+import Header from './components/header/header.js';
+import Footer from './components/footer/footer.js';
 
 class App extends React.Component{
+  constructor (props){
+    super(props);
+    this.state = {};
+  }
+  
+  }
   render(){
     return(
       <React.Fragment>
         <Header />
-        <Form />
-        <Results />
         <Footer />
       </React.Fragment>
     );
   }
-}
+};
+
 export default App;
