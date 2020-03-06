@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Form />  correctly to the DOM 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    className="useInput"
+    id="input1"
+    name="url"
+    onChange={[Function]}
+    placeholder="Type the URL  for the API"
+    type="text"
+  />
+  <br />
+  <button
+    id="b1"
+    name="GET"
+    required={true}
+  >
+     GET
+  </button>
+  <button
+    id="b1"
+    name="POST"
+  >
+     POST
+  </button>
+  <button
+    id="b1"
+    tname="PUT"
+  >
+     PUT
+  </button>
+  <button
+    className="PATCH"
+    id="b1"
+  >
+     PATCH
+  </button>
+  <button
+    id="b1"
+    name="DELETE"
+  >
+     DELETE
+  </button>
+  <button
+    id="go"
+    type="submit"
+  >
+    Gooo!
+  </button>
+</form>
+`;
+
+exports[`<Form /> correctly render to the DOM 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    className="useInput"
+    id="input1"
+    name="url"
+    onChange={[Function]}
+    placeholder="Type the URL  for the API"
+    type="text"
+  />
+  <br />
+  <button
+    id="b1"
+    name="GET"
+    required={true}
+  >
+     GET
+  </button>
+  <button
+    id="b1"
+    name="POST"
+  >
+     POST
+  </button>
+  <button
+    id="b1"
+    tname="PUT"
+  >
+     PUT
+  </button>
+  <button
+    className="PATCH"
+    id="b1"
+  >
+     PATCH
+  </button>
+  <button
+    id="b1"
+    name="DELETE"
+  >
+     DELETE
+  </button>
+  <button
+    id="go"
+    type="submit"
+  >
+    Gooo!
+  </button>
+</form>
+`;
+
+exports[`<Form /> render correctly to the DOM 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    className="useInput"
+    id="input1"
+    name="url"
+    onChange={[Function]}
+    placeholder="Type the URL  for the API"
+    type="text"
+  />
+  <br />
+  <button
+    id="b1"
+    name="GET"
+    required={true}
+  >
+     GET
+  </button>
+  <button
+    id="b1"
+    name="POST"
+  >
+     POST
+  </button>
+  <button
+    id="b1"
+    tname="PUT"
+  >
+     PUT
+  </button>
+  <button
+    className="PATCH"
+    id="b1"
+  >
+     PATCH
+  </button>
+  <button
+    id="b1"
+    name="DELETE"
+  >
+     DELETE
+  </button>
+  <button
+    id="go"
+    type="submit"
+  >
+    Gooo!
+  </button>
+</form>
+`;
+
+exports[`<Form /> renders correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    className="useInput"
+    id="input1"
+    name="url"
+    onChange={[Function]}
+    placeholder="Type the URL  for the API"
+    type="text"
+  />
+  <br />
+  <button
+    id="b1"
+    name="GET"
+    required={true}
+  >
+     GET
+  </button>
+  <button
+    id="b1"
+    name="POST"
+  >
+     POST
+  </button>
+  <button
+    id="b1"
+    tname="PUT"
+  >
+     PUT
+  </button>
+  <button
+    className="PATCH"
+    id="b1"
+  >
+     PATCH
+  </button>
+  <button
+    id="b1"
+    name="DELETE"
+  >
+     DELETE
+  </button>
+  <button
+    id="go"
+    type="submit"
+  >
+    Gooo!
+  </button>
+</form>
+`;
