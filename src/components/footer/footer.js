@@ -1,15 +1,11 @@
-  
-'use strict ';
-
+/* eslint-disable no-unused-vars */
 import React from 'react';
 
-const Footer = () => {
-    return(
-        <footer>
-            @codefellows2020 - Sohad Qtaitat
-        </footer>
-    )
+function Footer (){
+  return(
+    <footer>
+        CopyRight@2020 - sohad Qtaitat
+    </footer>
+  );
 }
-
 export default Footer;
-

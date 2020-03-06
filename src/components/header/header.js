@@ -1,15 +1,11 @@
-'use strict ';
-
+/* eslint-disable no-unused-vars */
 import React from 'react';
 
-const Header = () => {
-    return (
-        <header>
-            <h1>
-                RESTy App
-            </h1>
-        </header>
-    )
+function Header (){
+  return(
+    <header>
+        RESTy
+    </header>
+  );
 }
-
 export default Header;

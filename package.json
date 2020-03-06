@@ -2,18 +2,16 @@
   "name": "lab28-Props-and-State",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "lint": "eslint '**/*.js'",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/401-advanced-javascript-sohad/lab28-Props-and-State.git"
@@ -24,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/401-advanced-javascript-sohad/lab28-Props-and-State/issues"
   },
-  "homepage": "https://github.com/401-advanced-javascript-sohad/lab28-Props-and-State#readme",
+  "homepage": "https://github.com/401-advanced-javascript-sohad/lab28-Props-and-State",
   "dependencies": {
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
@@ -37,5 +35,17 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.0",
     "react-test-renderer": "^16.12.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
